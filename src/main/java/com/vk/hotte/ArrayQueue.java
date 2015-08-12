@@ -6,8 +6,8 @@ import java.util.Iterator;
 
 public class ArrayQueue<E> implements Queue<E>{
 
-    E[] array;
-    int countOfElements = 0;
+    private final E[] array;
+    private int countOfElements = 0;
 
     @SuppressWarnings("unchecked")
     public ArrayQueue(int capacity) {

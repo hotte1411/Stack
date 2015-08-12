@@ -3,7 +3,7 @@ package com.vk.hotte;
 
 import java.util.Collection;
 
-public interface Sequence<E> extends Collection<E>{
+interface Sequence<E> extends Collection<E>{
 
     void push(E e);
 

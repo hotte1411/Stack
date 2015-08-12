@@ -5,7 +5,7 @@ import java.util.*;
 
 public class LinkedQueue<E> implements Queue<E>{
 
-    private List<E> queue = new LinkedList<>();
+    private final List<E> queue = new LinkedList<>();
 
     public int size() {
         return queue.size();
