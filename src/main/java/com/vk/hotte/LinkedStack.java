@@ -3,6 +3,10 @@ package com.vk.hotte;
 
 import java.util.*;
 
+/**
+ * TODO: Add documentation
+ * @param <E>
+ */
 public class LinkedStack<E> implements Stack<E>{
 
     private List<E> stack = new LinkedList<>();
